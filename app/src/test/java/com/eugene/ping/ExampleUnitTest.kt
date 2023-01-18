@@ -40,8 +40,8 @@ class GameTest {
   }
   
   @After
-  public void teardown() throws Exception {
-	 game = null
+  fun teardown() {
+     game = null
   }
 
 }
